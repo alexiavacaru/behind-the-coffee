@@ -6,9 +6,9 @@ What does it actually take to keep a coffee shop profitable? How much do everyda
 
 These questions are what led me to this project.
 
-Having studied Economic Cybernetics, I wanted to work on something that connects economic thinking with data analysis and the tools we have available today.
+I wanted to explore a familiar business from a different perspective, using data to understand what happens behind the scenes.
 
-Not just another dataset to explore, but a business situation where the numbers actually mean something.
+Not just another dataset to analyze, but a real-world business situation where the numbers actually mean something.
 
 ## why 5 to go?
 
@@ -38,13 +38,35 @@ To explore it, I’ll look at several aspects of running a coffee shop:
 
 I’m particularly interested in understanding how these factors influence one another, rather than analyzing each of them separately.
 
+## questions I want to answer
+
+**sales and profitability**
+  - What are the main factors affecting profitability?
+  - Does higher revenue always lead to higher profit?
+  - Which products contribute the most to profit?
+
+**customer demand**
+  - When are customers most likely to buy coffee?
+  - How do sales change throughout the week?
+  - Can historical sales patterns help predict future demand?
+
+**costs and operations**
+  - Where does most of the money go?
+  - Could better inventory management reduce unnecessary costs?
+  - How do staffing and operating expenses affect profitability?
+
+**business decisions**
+  - What happens if prices or operating costs change?
+  - Which adjustments could improve financial performance?
+  - How can data help support better everyday decisions?
+
 ## my approach
 
 I’ll start by collecting publicly available information about 5 to go and relevant economic indicators from Romania.
 
-Since internal sales and operational data aren’t publicly available, I’ll also work with simulated data representing a hypothetical coffee shop.
+Since I don’t have access to internal sales and operational data, I’ll also work with simulated data representing a hypothetical coffee shop.
 
-The idea isn’t to reproduce the actual financial performance of 5 to go, but to build a realistic enough business scenario to explore different economic decisions.
+The idea isn’t to reproduce the actual financial performance of 5 to go, but to build a reasonable business scenario to explore different economic decisions.
 
 From there, I’ll use Python to analyze profitability, identify patterns in sales, and experiment with demand forecasting.
 
@@ -60,10 +82,11 @@ For me, the interesting part isn’t just building a model that predicts sales o
 
 It’s being able to look at the results and ask:
 
-So what does this actually mean for the business?
-
-And, more importantly:
-
-What could someone do differently based on what the data shows?
+- So what does this actually mean for the business?
+- Why are things happening this way?
+- What could someone do differently based on what the data shows?
 
 That’s the thinking I want to bring into this project.
+
+
+*This is an independent project inspired by 5 to go. It is not affiliated with the company. Publicly available information and simulated data are used to explore business scenarios, not to represent the company’s actual financial performance.*
