@@ -1,0 +1,5 @@
+product_id,product_name,category,quantity,revenue,variable_cost,contribution_margin,margin_pct
+1,Espresso,Coffee,6702,33510,9717.9,23792.1,71.0
+2,Americano,Coffee,3151,15755,4568.95,11186.05,71.0
+3,Cappuccino,Coffee,6898,55184,20694.0,34490.0,62.5
+4,Latte,Coffee,5166,46494,17461.08,29032.92,62.44
