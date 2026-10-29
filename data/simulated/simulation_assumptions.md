@@ -1,12 +1,12 @@
-# Simulation assumptions
+## simulation assumptions
 
 There is no public access to the transactions of a real 5 to go café, so everything in `data/simulated/` is
 **fictional**, built around figures the company has made public. The generator is
 `scripts/generate_simulated_data.py` (random seed 42, so results are reproducible).
 
-**Period:** 2026-01-01 to 2026-03-31 (90 days, one café, open 07:00-19:59).
+**period:** 2026-01-01 to 2026-03-31 (90 days, one café, open 07:00-19:59).
 
-## Taken from public sources (see `data/raw/sources.csv`)
+## taken from public sources (see `data/raw/sources.csv`)
 
 | Assumption | Value | Source |
 |---|---|---|
@@ -17,7 +17,7 @@ There is no public access to the transactions of a real 5 to go café, so everyt
 | Reported net profit of a franchise | 15-25% of sales | same interview |
 | Break-even | ~80 receipts per day (rent ~720 EUR, one employee, average receipt 14 RON excl. VAT) | same interview |
 
-## My own assumptions (not verified)
+## my own assumptions 
 
 - **Volume:** ~255 items on a weekday (about 125 receipts at ~2 items each); Friday +5%, Saturday -15%,
   Sunday -30%; January -5%, March +5%; random daily noise of about 8%.
@@ -30,7 +30,7 @@ There is no public access to the transactions of a real 5 to go café, so everyt
 - **Inventory:** 9 g of beans per shot; 0.17 L of milk per cappuccino and 0.26 L per latte; one cup per drink;
   waste of about 0.5% (beans), 3% (milk) and 1% (cups).
 
-## Limitations
+## limitations
 
 - VAT is not separated: menu prices include it, so revenue is slightly overstated compared to a real P&L.
 - Weather does not influence the simulated demand; any weather effect found later in the analysis comes from
