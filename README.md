@@ -26,6 +26,8 @@ Python, Pandas, SQL, Scikit-learn, Power BI, and Streamlit.
 
 ```text
 behind-the-coffee/
+├──docs/
+    ├──PROJECT_CONTEXT.md ->introduction
 ├── data/
 │   ├── raw/
 │   ├── processed/
