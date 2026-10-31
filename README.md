@@ -33,10 +33,10 @@ behind-the-coffee/
 │   ├── processed/
 │   └── simulated/
 ├── notebooks/
-│   ├── 01_exploration.ipynb
-│   ├── 02_profitability.ipynb
-│   ├── 03_forecasting.ipynb
-│   └── 04_scenarios.ipynb
+│   ├── exploring_the_data.ipynb
+│   ├── where_the_money_goes.ipynb
+│   ├── predicting_sales.ipynb
+│   └── what_if_scenarios.ipynb
 ├── src/
 │   ├── analysis.py
 │   ├── forecasting.py
