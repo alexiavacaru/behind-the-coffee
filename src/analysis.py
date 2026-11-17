@@ -1,9 +1,3 @@
-"""Behind the Coffee — Analysis helpers.
-
-Small, reusable functions for my simulated coffee-shop case study.
-Works with CSV files uploaded directly to Google Colab (/content).
-No GitHub connection or src folder is needed.
-"""
 
 from pathlib import Path
 import numpy as np
