@@ -37,8 +37,6 @@ def quality_report(datasets):
 
 pd.set_option('display.float_format', '{:,.2f}'.format)
 
-
-
 def break_even(monthly, total_items, n_days):
     revenue = monthly['revenue'].sum()
     variable = monthly['variable_cost'].sum()
@@ -59,14 +57,12 @@ def break_even(monthly, total_items, n_days):
         'actual_items_per_day': total_items / n_days,
     }
 
-
 def sales_summary(sales):
     """A quick overview of the sales figures in RON."""
     return {'revenue_ron': float(sales['revenue'].sum()),
             'items_sold': float(sales['quantity'].sum()),
             'variable_cost_ron': float(sales['variable_cost'].sum()),
             'contribution_ron': float(sales['contribution_margin'].sum())}
-
 
 def product_summary(sales, products):
     """Compare how much each product sells and contributes."""
