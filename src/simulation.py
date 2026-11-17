@@ -36,8 +36,6 @@ def quality_report(datasets):
 
 pd.set_option('display.float_format', '{:,.2f}'.format)
 
-
-
 def baseline_numbers(monthly):
     revenue = monthly['revenue'].sum()
     variable_cost = monthly['variable_cost'].sum()
@@ -79,7 +77,6 @@ def max_demand_loss(base, price_increase):
         return np.nan
     required_multiplier = (base['profit']+base['fixed_cost']) / per_unit_demand_contribution
     return max(0, (1-required_multiplier)*100)
-
 
 def compare_scenarios(base):
     """A few what-if questions I want to test against the baseline."""
