@@ -36,8 +36,6 @@ def quality_report(datasets):
 
 pd.set_option('display.float_format', '{:,.2f}'.format)
 
-
-
 from sklearn.ensemble import RandomForestRegressor, HistGradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
@@ -81,7 +79,6 @@ def get_models():
                                                    random_state=42, n_jobs=-1),
             'Gradient boosting': HistGradientBoostingRegressor(max_iter=120,
                                                                max_leaf_nodes=15, random_state=42)}
-
 
 def compare_models(train_df, validation_df):
     """Check if a machine-learning model beats a simple weekday/hour average."""
