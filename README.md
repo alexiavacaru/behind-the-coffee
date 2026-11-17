@@ -44,6 +44,8 @@ behind-the-coffee/
 ├── dashboard/
 │   └── app.py
 ├── reports/
+│   └──figures/
+│   └──tables/
 ├── requirements.txt
 └── README.md
 
