@@ -1,7 +1,7 @@
 from pathlib import Path
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 PROJECT_ROOT = Path('/content') if Path('/content').is_dir() else Path.cwd()
 FIGURES = PROJECT_ROOT / 'reports' / 'figures'
